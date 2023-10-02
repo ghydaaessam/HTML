@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input</title>
+    </head>
+    <body>
+        <form method="get">
+            <div>
+                <label for="un">Username</label>
+                <input 
+                type="text" 
+                name="Username" 
+                id="un" 
+                placeholder="Username" 
+                autofocus required 
+                minlength="5" 
+                maxlength="20">       
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="o@o.com" readonly>
+            </div>
+            <br>
+            <div>
+                <label for="Token">Token</label>
+                <input type="hidden" name="Token" id="Token" value="b92f1fc2fce391ad7af633723afd3055">
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="Send">
+                <input type="reset" name="Empty">
+            </div>
+
+
+        </form>
+    </body>
+</html>

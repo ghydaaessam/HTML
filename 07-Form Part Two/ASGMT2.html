@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input</title>
+</head>
+
+<body>
+    <form method="get">
+        <div>
+            <label for="un">Username</label>
+            <input type="text" name="Username" id="un" placeholder="Username" autofocus required minlength="5"
+                maxlength="20">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" value="o@o.com" readonly>
+        </div>
+        <br>
+        <div>
+            <label for="Token">Token</label>
+            <input type="hidden" name="Token" id="Token" value="b92f1fc2fce391ad7af633723afd3055">
+        </div>
+        <div>
+            <h2>Skils</h2>
+            <div>
+                <input type="checkbox" name="skils" id="ps" value="Problem Solving" checked>
+                <label for="ps">Problem Solving</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skils" id="lt" value="Logical Thinking">
+                <label for="lt">Logical Thinking</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skils" id="as" value="Advanced Search">
+                <label for="as">Advanced Search</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skils" id="analysis" value="Analysis">
+                <label for="analysis">Analysis</label>
+            </div>
+            <div>
+                <input type="checkbox" name="skils" id="plan" value="Planning">
+                <label for="ps">Planning</label>
+            </div>
+        </div>
+        <div>
+            <h2>Jop</h2>
+            <div>
+                <input type="radio" name="jop" id="fe" value="Front-End Developer">
+                <label for="fe">Front-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" name="jop" id="be" value="Back-End Developer" checked>
+                <label for="be">Back-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" name="jop" id="pm" value="Project Manager">
+                <label for="pm">Project Manager</label>
+            </div>
+            <div>
+                <input type="radio" name="jop" id="ba" value="Business Analyst">
+                <label for="ba">Business Analyst</label>
+            </div>
+            <div>
+                <input type="radio" name="jop" id="sm" value="Scrum Maste">
+                <label for="sm">Scrum Maste</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <input type="submit" name="Send">
+            <input type="reset" name="Empty">
+        </div>
+    </form>
+</body>
+
+</html>
